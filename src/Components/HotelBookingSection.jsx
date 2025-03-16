@@ -6,7 +6,7 @@ import { Pagination } from "swiper/modules";
 
 const ImageSlider = () => {
   return (
-    <div className="flex flex-col md:flex-row items-center justify-center p-6 bg-[#5f5f47] bg-[url('bg.jpg')] bg-cover bg-center">
+    <div className="flex flex-col md:flex-row items-center justify-center p-6 bg-[#5f5f47] bg-[url('/bg.jpg')] bg-cover bg-center">
       <div className="w-full md:w-4/5 p-4">
         <Swiper
           spaceBetween={20}
